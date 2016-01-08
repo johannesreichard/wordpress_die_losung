@@ -1,0 +1,14 @@
+wordpress:
+    image: wordpress:latest
+    links:
+        - db:mysql
+    ports:
+        - 8080:80
+    volumes:
+        - losung:/var/www/html/wp-content/plugins/losung/
+
+db:
+    image: mariadb
+    environment:
+        MYSQL_ROOT_PASSWORD: example
+
