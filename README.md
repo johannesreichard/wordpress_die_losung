@@ -40,5 +40,9 @@ Danach kann man einen Testblog einrichten und direkt loslegen.
     cd /path/to/this/repo
     docker-compose up
 
+## Credits
+Diese Links haben mir bei der Entwicklung geholfen:
+  * http://www.hongkiat.com/blog/beginners-guide-to-wordpress-plugin-development/
+  * https://github.com/khromov/wp-better-starter-widget
 
 Author: Johannes Reichard <mail@johannesreichard.de>

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Losung Widget
-Plugin URI: 
+Plugin URI: https://github.com/johannesreichard/wordpress_die_losung
 Description: Showing the Losung from http://losung.de
 Version: 1.0.0
 Author: Johannes Reichard
