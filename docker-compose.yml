@@ -5,7 +5,7 @@ wordpress:
     ports:
         - 8080:80
     volumes:
-        - losung:/var/www/html/wp-content/plugins/losung/
+        - .:/var/www/html/wp-content/plugins/losung/
 
 db:
     image: mariadb

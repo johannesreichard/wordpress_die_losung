@@ -81,7 +81,8 @@ class Losung_Widget extends WP_Widget
         if ( ! file_exists( $file_path . $file_name ) ) {
             $archive_name = 'Losung_' . date('Y') . '_XML.zip';
             WP_Filesystem();
-            if ( unzip_file( $file_path . $archive_name, $file_path) ) {
+            file_put_contents($file_path . $archive_name, file_get_contents('http://www.brueder-unitaet.de/download/' . $archive_name));
+            if ( ! unzip_file( $file_path . $archive_name, $file_path) ) {
                 echo "Error, could not get Content.";
                 exit;
             }
