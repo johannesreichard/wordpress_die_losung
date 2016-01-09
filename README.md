@@ -31,12 +31,13 @@ Die Entwicklung gestaltet sich recht einfach. Man benötigt lediglich Grundkennt
 Benutzung von [Docker](https://docs.docker.com/linux/) um die Entwicklungsumgebung zu starten.
 Danach kann man einen Testblog einrichten und direkt loslegen.
 
-### dependencies
+### Dependencies
 - docker
 - docker-compose
 
-## start dev environment
+### Start dev environment
 
+    cd /path/to/this/repo
     docker-compose up
 
 
